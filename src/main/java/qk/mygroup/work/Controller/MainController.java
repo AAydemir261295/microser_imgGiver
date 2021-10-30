@@ -15,7 +15,7 @@ import java.io.IOException;
 public class MainController {
 
     @GetMapping("/get")
-    public String getHomePage(@ModelAttribute("imgName") String name){
+    public String getHomePage(){
 
         return "home";
     }
